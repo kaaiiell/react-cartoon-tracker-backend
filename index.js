@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const typeDefs = require('./graphql/typeDefs');
 const resolvers = require('./graphql/resolvers');
-const { MONGODB } = require('./configP.js');
+const { MONGODB } = require('./configP');
 
 const pubsub = new PubSub();
 
